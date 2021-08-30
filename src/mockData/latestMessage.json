@@ -1,0 +1,54 @@
+{
+  "data": {
+    "fetchLatestMessages": [
+      {
+        "messageId": "6868280865798675231",
+        "text": "klo;pp",
+        "datetime": "2021-08-29T10:59:17.578Z",
+        "userId": "Joyse"
+      },
+      {
+        "messageId": "2978623855697937841",
+        "text": "asd12312312312313414214124asd",
+        "datetime": "2021-08-29T07:42:24.075Z",
+        "userId": "Sam"
+      },
+      {
+        "messageId": "2098357161067875876",
+        "text": "l;[piop]",
+        "datetime": "2021-08-29T07:37:47.392Z",
+        "userId": "Sam"
+      },
+      {
+        "messageId": "1875617279598118378",
+        "text": "097660oku9",
+        "datetime": "2021-08-29T07:37:36.752Z",
+        "userId": "Russell"
+      },
+      {
+        "messageId": "6730682946435770426",
+        "text": "zxqwerqwr",
+        "datetime": "2021-08-29T07:37:07.902Z",
+        "userId": "Sam"
+      },
+      {
+        "messageId": "7121581757976526161",
+        "text": "jhpo[]",
+        "datetime": "2021-08-29T07:36:56.142Z",
+        "userId": "Joyse"
+      },
+      {
+        "messageId": "8039187879825834774",
+        "text": "tyu",
+        "datetime": "2021-08-29T07:36:30.523Z",
+        "userId": "Russell"
+      },
+      {
+        "messageId": "7404069101309171161",
+        "text": "asdasd",
+        "datetime": "2021-08-29T07:34:52.318Z",
+        "userId": "Joyse"
+      }
+    ]
+  }
+}

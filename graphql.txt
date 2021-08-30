@@ -1,0 +1,56 @@
+mutation {
+  postMessage(channelId: "1", text: "asdasd", userId: "Sam"){
+    messageId
+    text
+    datetime
+    userId
+  }
+}
+
+
+{
+  fetchLatestMessages(channelId : "1"){
+    messageId
+    text
+    datetime
+    userId
+  }
+		
+}
+
+
+{
+  fetchMoreMessages(channelId : "1",
+    messageId : "2978623855697937841", old : true){
+    messageId
+    text
+    datetime
+    userId
+  }
+		
+}
+
+
+########################## ERROR ######
+{
+  "data": {
+    "postMessage": null
+  },
+  "errors": [
+    {
+      "message": "random error happened",
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "path": [
+        "postMessage"
+      ],
+      "extensions": {
+        "code": 500
+      }
+    }
+  ]
+}

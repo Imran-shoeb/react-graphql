@@ -1,0 +1,22 @@
+{
+    "data": {
+      "postMessage": null
+    },
+    "errors": [
+      {
+        "message": "random error happened",
+        "locations": [
+          {
+            "line": 2,
+            "column": 3
+          }
+        ],
+        "path": [
+          "postMessage"
+        ],
+        "extensions": {
+          "code": 500
+        }
+      }
+    ]
+  }

@@ -7,33 +7,33 @@ import mockLatestMessage from "../mockData/latestMessage.json";
 import { useEffect, useState } from 'react';
 
 // cannot fetch data from graphQl. that's why taking the mock data to test the behavior of the code
-console.log(mockLatestMessage);
+//console.log(mockLatestMessage);
 
 // querying data from graphQl
 
-// const getLatestMessageQuery = gql`
-//   {
-//     fetchLatestMessages(channelId: "1") {
-//       messageId
-//       text
-//       datetime
-//       userId
-//     }
-//   }
-// `;
+const getLatestMessageQuery = gql`
+  {
+    fetchLatestMessages(channelId: "1") {
+      messageId
+      text
+      datetime
+      userId
+    }
+  }
+`;
 
 
 function Chatdata(props) {
 
 // getting CORS errors here whenever I try to query data
 
-  //const { loading, error, data } = useQuery(getLatestMessageQuery);
+  const { loading, error, data } = useQuery(getLatestMessageQuery);
 
   // const fetchedData = data.fetchLatestMessages.map((res) => {
   //     return res;
   //   })
-  //   if (loading) return <p>Loading...</p>;
-  //   if (error) return <p>Error :(</p>;
+    if (loading) return <p>Loading...</p>;
+    if (error) return <p>Error :(</p>;
 
   return (
       <>

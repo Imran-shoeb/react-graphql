@@ -13,7 +13,15 @@ import {
 
 const client = new ApolloClient({
   uri: 'https://angular-test-backend-yc4c5cvnnq-an.a.run.app/graphiql',
-  cache: new InMemoryCache()
+  cache: new InMemoryCache(),
+  credentials: 'include',
+  headers: {
+    "Access-Control-Allow-Origin" : "*",
+    Accept : 'application/json',
+    'Content-Type': 'application/json',
+    mode:'no-cors'
+
+  }
 });
 
 function App() {
